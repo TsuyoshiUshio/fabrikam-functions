@@ -1,6 +1,8 @@
 #!/bin/bash
 
-az login --service-principal -u $USERNAME -p $PASSWORD --tenant $TENANT
+az login --service-principal -u $APPNAME -p $PASSWORD --tenant $TENANT
+
+cd /home/vscode/app
 
 mvn clean package
 
