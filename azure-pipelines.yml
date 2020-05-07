@@ -17,5 +17,5 @@ steps:
 
 
 - script: |
-    docker run -e "USERNAME=${USERNAME}" -e "PASSWORD=${PASSWORD}" -e "TENANT=${TENANT}" --mount source=.,destination/home/vscode/app deployment
+    docker run -e "USERNAME=${USERNAME}" -e "PASSWORD=${PASSWORD}" -e "TENANT=${TENANT}" --mount source=.,destination=/home/vscode/app deployment
   displayName: 'Deploy App'
