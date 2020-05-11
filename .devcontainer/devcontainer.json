@@ -1,6 +1,6 @@
 {
   "name": "Azure Functions & Java 8",
-  "dockerFile": "Dockerfile",
+  "image": "mcr.microsoft.com/azure-functions/java:3.0-java8-core-tools",
   "forwardPorts": [ 7071 ],
 
   // Set *default* container specific settings.json values on container create.
